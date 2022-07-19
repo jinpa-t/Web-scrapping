@@ -1,6 +1,6 @@
 '''
 Author: @TenzingMax
-Description: This program generates a movie list excel sheet with WebScrapping.
+Description: Generates a popular sci-fi movie list as excel file using web scrapping.
 Date: 7/19/2022
 
 '''
@@ -9,7 +9,7 @@ import requests
 from bs4 import BeautifulSoup
 import xlwt;
 
-# Note: repls can't handle displaying xls or xlsx file
+
 #create excel sheet with 2 colums
 workbook = xlwt.Workbook()
 table = workbook.add_sheet('datap',cell_overwrite_ok=True)
